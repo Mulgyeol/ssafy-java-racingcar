@@ -23,4 +23,17 @@ class StringUtilsTest {
         assertThat(data2).containsExactly("1");
     }
 
+    @DisplayName("요구사항 2 : substring 테스트")
+    @Test
+    void subStringTest() {
+        //given
+        String sentence = "(1,2)";
+
+        //when
+        String result = sentence.substring(sentence.indexOf("(") + 1, sentence.indexOf(")"));
+
+        //then
+        assertThat(result).isEqualTo("1,2");
+    }
+
 }
