@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="step1.StringUtilsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-12T14:22:54" hostname="MULGYEOL" time="0.063">
+  <properties/>
+  <testcase name="�슂援ъ궗�빆 1 : split �뀒�뒪�듃" classname="step1.StringUtilsTest" time="0.063"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
