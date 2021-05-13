@@ -55,7 +55,7 @@ class StringUtilsTest {
         int index = 10;
 
         //then //when
-        assertThatThrownBy(() -> { sentence.charAt(index); })
+        assertThatThrownBy(() -> sentence.charAt(index))
                 .isInstanceOf(IndexOutOfBoundsException.class);
     }
 
